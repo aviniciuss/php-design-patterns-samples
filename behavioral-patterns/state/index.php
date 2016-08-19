@@ -6,8 +6,8 @@
 
 require "Budget.php";
 require "TaxCalculator.php";
-require "interface/Tax.php";
-require "interface/State.php";
+require "interfaces/Tax.php";
+require "interfaces/State.php";
 require "strategies/ICMS.php";
 require "strategies/ISS.php";
 require "states/Approved.php";
